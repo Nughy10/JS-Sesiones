@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <title>Form Validation</title>
+</head>
+<body>
+    <form>
+        <label>
+            <p>Email</p>
+            <input type="text" name="email">
+            <span>Tiene que terminar en @bootcamp-upgrade.com</span>
+            <p id="error-email" style="color: red;"></p>
+        </label>
+        <label>
+            <p>Contraseña</p>
+            <input type="password" name="password">
+            <span>Tiene que coincidir</span>
+        </label>
+        <label>
+            <p>Repite Contraseña</p>
+            <input type="password" name="verifyPassword">
+            <span>Tiene que coincidir</span>
+            <p id="error-password" style="color: red;"></p>
+        </label>
+    </form>
+</body>
+</html>
